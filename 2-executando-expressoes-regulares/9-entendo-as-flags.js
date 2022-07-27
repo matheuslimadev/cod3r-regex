@@ -4,6 +4,11 @@
 
 // i -> ignora letras maíusculas e letras minúsculas. Ele vai tanto achar uma letra maíscula ou minúscula quando você fizer uma busca que envolva string.
 
+// String.match(regex)
+// Retorno do método: Array()
+// Posição Array[0]: A string encontrada
+// Chave Array.index: A posição da string encontrada - baseada na regex setada
+
 const texto = "Carlos assinou o abaixo-assinado. 3"
 // A expressão abaixo, significa 'encontre na variável texto a letra 'C' OU ('|') as letras 'ab' 
 console.log(texto.match(/C|ab/))
